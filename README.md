@@ -1,5 +1,5 @@
 # Blog-CMS
-### Setting Up SMTP ###
+## Setting Up SMTP ##
 
 >Go to 
 C:\xampp\php\php.ini
@@ -31,39 +31,36 @@ force_sender=your-id@gmail.com
 enable IMAP and save
 
 Your SMTP must be set now.</br>
-If errors persist try changing `smtp_port` to `565` </br>
+If errors persists try changing `smtp_port` to `565` </br>
 or remove semicolon before </br>
 `;extension=php_openssl.dll` in `php.ini` </br>
-Try installing the latest version of [Xampp](https://www.apachefriends.org/download.html "Xampp Download")
-If error still exits, </br>
-Comment the `"mailUser"` function and its call in `register.php`
-Comment out the commented part
+Try installing the latest version of [Xampp](https://www.apachefriends.org/download.html "Xampp Download")</br>
+If you are still facing any errors,</br>
+Comment the `"mailUser"` function and its call in `register.php` and </br>
+Comment out the commented part</br>
 ```
-
 //session_start();
 //$_SESSION['uid'] = $id;
 //header("Location: index.php");
 ```
 If you somehow manage to set up your SMTP,</br>
->open contact.php 
-change `$to = your-mail@gmail.com`.</br>
+open `contact.php` and change `$to = your-mail@gmail.com`.</br>
 `Contact.php` won't work,if you cant set up SMTP. </br>
 
+As of database, Create a database named `blog`
+And Import the sql file `blog.sql` file and you are good to go.
 
-As of database, Create a database named blog
-And Import the blog.sql file and you are good to go.
 
+## Features Of the Blog: ##
 
-Features Of the Blog:
+__Authentication :__ Viewer | Blogger | Admin
 
-Authentication : Viewer | Blogger | Admin
-
-Viewer : Can view Posts.
+__Viewer :__ Can view Posts.
 		 Can view Blogger/Admin Profile.
 		 Can Contact Admin.
 		 Search For a particular user.
 		
-Blogger: All Rights of Viewer +
+__Blogger :__ All Rights of Viewer +
 		 Needs to Sign-Up with valid Email-id.
 		 An Activation link will be send from localhost(if you had your smtp set up)
 		 Blogger can post a new post.
@@ -75,7 +72,7 @@ Blogger: All Rights of Viewer +
 		 Receives notification if anyone follows him/her.
 		 Receives notification if his following users list made any new post.
 
-Admin: All Rights of Blogger +
+__Admin :__ All Rights of Blogger +
 	   Can Delete any post he feels is spam.
 	   Can edit any post to remove offensive keywords.
 	   Can add/delete any new/existing category.
