@@ -27,33 +27,27 @@ auth_username=your-id@gmail.com
 auth_password=your-password
 force_sender=your-id@gmail.com
 ```
-
-
 >Open your gmail account > settings > Forwarding and POP/IMAP
 enable IMAP and save
 
-Your SMTP must be set now.
-
-If errors persist try changing smtp_port to 565
-
-or remove semicolon before
-
-;extension=php_openssl.dll in php.ini
-
-Try installing the latest version of xampp here
-
-https://www.apachefriends.org/download.html
-
-If error still exits,
-
-Comment the "mailUser" function and its call in register.php
-
+Your SMTP must be set now.</br>
+If errors persist try changing `smtp_port` to `565` </br>
+or remove semicolon before </br>
+`;extension=php_openssl.dll` in `php.ini` </br>
+Try installing the latest version of [Xampp](https://www.apachefriends.org/download.html "Xampp Download")
+If error still exits, </br>
+Comment the `"mailUser"` function and its call in `register.php`
 Comment out the commented part
-"	//session_start();
-	//$_SESSION['uid'] = $id;
-	//header("Location: index.php");"
-	
-And also Contact.php is useless if you cant set up SMTP.
+```
+
+//session_start();
+//$_SESSION['uid'] = $id;
+//header("Location: index.php");
+```
+If you somehow manage to set up your SMTP,</br>
+>open contact.php 
+change `$to = your-mail@gmail.com`.</br>
+`Contact.php` won't work,if you cant set up SMTP. </br>
 
 
 As of database, Create a database named blog
