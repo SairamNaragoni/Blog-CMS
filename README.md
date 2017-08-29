@@ -6,10 +6,12 @@ C:\xampp\php\php.ini
 
 find : *[mail function]* And
 Set The Following </br>
-`SMTP=smtp.gmail.com` </br>
-`smtp_port=465` </br>
-`sendmail_from = your-id@gmail.com` </br>
-`sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"` </br>
+```
+SMTP=smtp.gmail.com
+smtp_port=465
+sendmail_from = your-id@gmail.com
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+```
 
 >Go to 
 C:\xampp\sendmail\sendmail.ini
@@ -23,21 +25,29 @@ error_logfile=error.log
 debug_logfile=debug.log
 auth_username=your-id@gmail.com
 auth_password=your-password
-force_sender=your-id@gmail.com ```
+force_sender=your-id@gmail.com
+```
 
 
-then Open your gmail account > settings > Forwarding and POP/IMAP
+>Open your gmail account > settings > Forwarding and POP/IMAP
 enable IMAP and save
 
-You SMTP must be set now.
+Your SMTP must be set now.
+
 If errors persist try changing smtp_port to 565
+
 or remove semicolon before
+
 ;extension=php_openssl.dll in php.ini
+
 Try installing the latest version of xampp here
+
 https://www.apachefriends.org/download.html
 
 If error still exits,
+
 Comment the "mailUser" function and its call in register.php
+
 Comment out the commented part
 "	//session_start();
 	//$_SESSION['uid'] = $id;
