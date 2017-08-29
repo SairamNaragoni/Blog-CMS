@@ -61,32 +61,23 @@ __Viewer :__
 * Can Contact Admin.
 * Search For a particular user.
 		
-__Blogger :__ All Rights of Viewer +
-		 Needs to Sign-Up with valid Email-id.
-		 An Activation link will be send from localhost(if you had your smtp set up)
-		 Blogger can post a new post.
-		 Can Comment on any post.
-		 Can Like any post.
-		 Can Follow/UnFollow other bloggers/admin.
-		 See All his Followers/Following.
-		 Receives notification for LIKE/COMMENT on his post.
-		 Receives notification if anyone follows him/her.
-		 Receives notification if his following users list made any new post.
+__Blogger :__ 
+* All Rights of Viewer +
+* Needs to Sign-Up with valid Email-id.
+* An Activation link will be send from localhost(if you had your smtp set up)
+* Blogger can post a new post.
+* Can Comment on any post.
+* Can Like/Unlike any post.
+* Can Follow/UnFollow other bloggers/admin.
+* See All his Followers/Following.
+* Receives notification for LIKE/COMMENT on his post.
+* Receives notification if anyone follows him/her.
+* Receives notification if any user , a blogger follows makes any new post.
 
-__Admin :__ All Rights of Blogger +
-	   Can Delete any post he feels is spam.
-	   Can edit any post to remove offensive keywords.
-	   Can add/delete any new/existing category.
-	   Can make Any existing blogger as admin or remove him as admin.
-	   Can Delete the account of a blogger.
-		 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+__Admin :__ 
+* All Rights of Blogger +
+* Can Delete any post he feels is spam.
+* Can edit any post to remove offensive keywords.
+* Can add/delete any new/existing category.
+* Can make Any existing blogger as admin or remove him as admin.
+* Can Delete the account of a blogger.
