@@ -4,7 +4,7 @@
 >Go to 
 C:\xampp\php\php.ini
 
-find : *[mail function]* then
+find : *[mail function]* And
 Set The Following </br>
 `SMTP=smtp.gmail.com` </br>
 `smtp_port=465` </br>
@@ -13,8 +13,9 @@ Set The Following </br>
 
 >Go to 
 C:\xampp\sendmail\sendmail.ini
-Copy Paste the following
 
+Copy Paste the following
+```
 [sendmail]
 smtp_server=smtp.gmail.com
 smtp_port=465
@@ -22,7 +23,7 @@ error_logfile=error.log
 debug_logfile=debug.log
 auth_username=your-id@gmail.com
 auth_password=your-password
-force_sender=your-id@gmail.com
+force_sender=your-id@gmail.com ```
 
 
 then Open your gmail account > settings > Forwarding and POP/IMAP
