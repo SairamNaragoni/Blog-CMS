@@ -4,7 +4,7 @@
     function mailAdmin($email,$user_subject,$body)
     {
     	$subject = "You got a response from user $email";
-        $to='naragonisairam@gmail.com';
+        $to='your-mail@gmail.com';
         $header="From:";
         $message="FROM : $email\nSUBJECT : $user_subject\n $body\n";
         $sentmail = mail($to,$subject,$message,$header);
