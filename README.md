@@ -46,7 +46,7 @@ Comment out the commented part</br>
 ```
 If you somehow manage to set up your SMTP,</br>
 open `contact.php` and change `$to = your-mail@gmail.com`.</br>
-`Contact.php` won't work,if you cant set up SMTP. </br>
+`contact.php` won't work,if you cant set up SMTP. </br>
 
 As of database, Create a database named `blog`
 And Import the sql file `blog.sql` file and you are good to go.
