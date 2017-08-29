@@ -55,10 +55,11 @@ And Import the sql file `blog.sql` file and you are good to go.
 
 __Authentication :__ Viewer | Blogger | Admin
 
-__Viewer :__ Can view Posts.
-		 Can view Blogger/Admin Profile.
-		 Can Contact Admin.
-		 Search For a particular user.
+__Viewer :__
+* Can view Posts.
+* Can view Blogger/Admin Profile.
+* Can Contact Admin.
+* Search For a particular user.
 		
 __Blogger :__ All Rights of Viewer +
 		 Needs to Sign-Up with valid Email-id.
