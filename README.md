@@ -4,8 +4,8 @@
 >Go to 
 C:\xampp\php\php.ini
 
-* find : [mail function] then
->Set The Following </br>
+find : *[mail function]* then
+Set The Following </br>
 `SMTP=smtp.gmail.com` </br>
 `smtp_port=465` </br>
 `sendmail_from = your-id@gmail.com` </br>
