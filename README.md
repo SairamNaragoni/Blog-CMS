@@ -35,6 +35,7 @@ If errors persists try changing `smtp_port` to `565` </br>
 or remove semicolon before </br>
 `;extension=php_openssl.dll` in `php.ini` </br>
 Try installing the latest version of [Xampp](https://www.apachefriends.org/download.html "Xampp Download")</br>
+
 If you are still facing any errors,</br>
 Comment the `"mailUser"` function and its call in `register.php` and </br>
 Comment out the commented part</br>
