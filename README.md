@@ -29,7 +29,7 @@ force_sender=your-id@gmail.com
 ```
 >Open your gmail account > settings > Forwarding and POP/IMAP
 enable IMAP and save
-
+___
 Your SMTP must be set now.</br>
 If errors persists try changing `smtp_port` to `565` </br>
 or remove semicolon before </br>
