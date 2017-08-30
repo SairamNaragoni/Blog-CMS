@@ -34,7 +34,7 @@ force_sender=your-id@gmail.com
 enable IMAP and save
 ___
 Your SMTP must be set now.</br>
-If errors persists try changing `smtp_port` to `565` </br>
+If errors persists try changing `smtp_port` to `587` </br>
 or remove semicolon before </br>
 `;extension=php_openssl.dll` in `php.ini` </br>
 Try installing the latest version of [Xampp](https://www.apachefriends.org/download.html "Xampp Download")</br>
