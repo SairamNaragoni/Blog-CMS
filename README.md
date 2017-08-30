@@ -1,4 +1,7 @@
 # Blog-CMS
+Copy the contents to </br>
+>C:\xampp\htdocs\blog
+
 ## Setting Up SMTP ##
 
 >Go to 
