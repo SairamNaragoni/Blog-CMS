@@ -54,6 +54,8 @@ open `contact.php` and change `$to = your-mail@gmail.com`.</br>
 As of database, Create a database named `blog` in PHPmyAdmin
 And Import the sql file `blog.sql` and you are good to go.
 
+If you didnt set up your SMTP, change `active` col in `users` table to `1` </br>
+
 
 ## Features Of the Blog: ##
 
